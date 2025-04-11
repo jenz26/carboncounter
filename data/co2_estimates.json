@@ -1,0 +1,152 @@
+{
+    "email_simple": {
+        "label": "Email senza allegato",
+        "co2_g": 4,
+        "fonte": "ADEME",
+        "descrizione": "Invio di una singola email testuale senza allegati."
+    },
+    "email_attachment_small": {
+        "label": "Email con allegato (1 MB)",
+        "co2_g": 19,
+        "fonte": "Berkeley University",
+        "descrizione": "Invio di un'email con allegato di circa 1 MB."
+    },
+    "email_attachment_large": {
+        "label": "Email con allegato (5 MB)",
+        "co2_g": 100,
+        "fonte": "Berkeley University",
+        "descrizione": "Invio di un'email con allegato di circa 5 MB."
+    },
+    "instant_msg_text": {
+        "label": "Messaggio istantaneo (testo)",
+        "co2_g": 1.6,
+        "fonte": "The Shift Project",
+        "descrizione": "Messaggio inviato tramite app di messaggistica (es. WhatsApp, Telegram)."
+    },
+    "instant_msg_photo": {
+        "label": "Messaggio con foto (1 MB)",
+        "co2_g": 10,
+        "fonte": "The Shift Project",
+        "descrizione": "Messaggio istantaneo contenente una foto di circa 1 MB."
+    },
+    "instant_msg_video": {
+        "label": "Messaggio con video (5 MB)",
+        "co2_g": 50,
+        "fonte": "The Shift Project",
+        "descrizione": "Messaggio istantaneo contenente un video di circa 5 MB."
+    },
+    "sms": {
+        "label": "SMS",
+        "co2_g": 0.014,
+        "fonte": "Royal Society",
+        "descrizione": "Messaggio di testo inviato tramite rete GSM."
+    },
+    "streaming_sd": {
+        "label": "Streaming video SD (1h)",
+        "co2_g": 55,
+        "fonte": "The Shift Project",
+        "descrizione": "Visione di un video in qualità standard per 1 ora."
+    },
+    "streaming_hd": {
+        "label": "Streaming video HD (1h)",
+        "co2_g": 150,
+        "fonte": "The Shift Project",
+        "descrizione": "Visione di un video in alta definizione per 1 ora."
+    },
+    "streaming_4k": {
+        "label": "Streaming video 4K (1h)",
+        "co2_g": 300,
+        "fonte": "The Shift Project",
+        "descrizione": "Visione di un video in risoluzione 4K per 1 ora."
+    },
+    "streaming_music": {
+        "label": "Streaming musica (1h)",
+        "co2_g": 40,
+        "fonte": "The Shift Project",
+        "descrizione": "Ascolto di musica in streaming per 1 ora."
+    },
+    "videocall_1to1": {
+        "label": "Videoconferenza 1:1 (1h)",
+        "co2_g": 100,
+        "fonte": "Microsoft",
+        "descrizione": "Chiamata video individuale della durata di 1 ora."
+    },
+    "videocall_group": {
+        "label": "Videoconferenza di gruppo (1h)",
+        "co2_g": 150,
+        "fonte": "Microsoft",
+        "descrizione": "Videochiamata di gruppo con più partecipanti per 1 ora."
+    },
+    "google_search": {
+        "label": "Ricerca Google (1 query)",
+        "co2_g": 0.2,
+        "fonte": "Google",
+        "descrizione": "Singola ricerca effettuata su un motore di ricerca (es. Google)."
+    },
+    "web_browsing": {
+        "label": "Navigazione su sito web (1 min)",
+        "co2_g": 1.2,
+        "fonte": "Royal Society",
+        "descrizione": "Navigazione su un sito web per 1 minuto circa."
+    },
+    "download_gb": {
+        "label": "Download di file (1 GB)",
+        "co2_g": 5,
+        "fonte": "The Shift Project",
+        "descrizione": "Download di 1 gigabyte di dati dalla rete."
+    },
+    "cloud_storage_gb_month": {
+        "label": "Archiviazione cloud (1 GB/mese)",
+        "co2_g": 5,
+        "fonte": "The Shift Project",
+        "descrizione": "Archiviazione di 1 GB di dati nel cloud per 1 mese."
+    },
+    "chatbot_query": {
+        "label": "Interazione con chatbot IA (1 query)",
+        "co2_g": 5,
+        "fonte": "OpenAI",
+        "descrizione": "Interazione con modelli linguistici (es. ChatGPT) per una singola richiesta."
+    },
+    "image_gen_ai": {
+        "label": "Generazione immagine IA (1 immagine)",
+        "co2_g": 20,
+        "fonte": "OpenAI",
+        "descrizione": "Generazione di un'immagine tramite intelligenza artificiale."
+    },
+    "ai_software_hour": {
+        "label": "Utilizzo software IA (1h)",
+        "co2_g": 500,
+        "fonte": "OpenAI",
+        "descrizione": "Utilizzo continuato di software IA (es. modelli di previsione) per 1 ora."
+    },
+    "gaming_online": {
+        "label": "Gaming online (1h)",
+        "co2_g": 80,
+        "fonte": "Stanford",
+        "descrizione": "Gioco online da console o PC per 1 ora."
+    },
+    "gaming_cloud": {
+        "label": "Cloud gaming (1h)",
+        "co2_g": 200,
+        "fonte": "The Shift Project",
+        "descrizione": "Gioco in streaming tramite servizi di cloud gaming per 1 ora."
+    },
+    "ads_view": {
+        "label": "Visualizzazione di 100 annunci pubblicitari",
+        "co2_g": 15,
+        "fonte": "The Shift Project",
+        "descrizione": "Visione di 100 pubblicità online (es. banner, video)."
+    },
+    "ecommerce_purchase": {
+        "label": "Acquisto online",
+        "co2_g": 15,
+        "fonte": "The Shift Project",
+        "descrizione": "Completamento di una transazione di acquisto su e-commerce."
+    },
+    "iot_device_day": {
+        "label": "Utilizzo dispositivo IoT (1 giorno)",
+        "co2_g": 10,
+        "fonte": "The Shift Project",
+        "descrizione": "Funzionamento di un dispositivo IoT (es. smart home) per un'intera giornata."
+    }
+}
