@@ -11,13 +11,25 @@ translations = {
         "it": "Semplificata",
         "en": "Simplified"
     },
+    "mode": {
+    "it": "Modalità",
+    "en": "Mode"
+    },
+    "mode_simple": {
+        "it": "Semplificata",
+        "en": "Simple"
+    },
+    "mode_advanced": {
+        "it": "Avanzata",
+        "en": "Advanced"
+    },
     "advanced": {
         "it": "Avanzata",
         "en": "Advanced"
     },
     "total": {
-        "it": "## La tua impronta stimata è **{co2:.2f} kg di CO₂**",
-        "en": "## Your estimated footprint is **{co2:.2f} kg of CO₂**"
+        "it": "🌿 La tua impronta stimata è {co2:.2f} kg di CO₂",
+        "en": "🌿 Your estimated footprint is {co2:.2f} kg of CO₂"
     },
     "equiv": {
         "it": "🌈 Equivalenze creative:",
@@ -68,8 +80,8 @@ translations = {
         "en": "👉 Want to really compensate? Discover the **[BioBambuItalia](https://www.biobambuzeroco2.it/)** project to plant sustainable bamboo!"
     },
     "tips_title": {
-        "it": "## 💡 Come ridurre la tua impronta:",
-        "en": "## 💡 How to reduce your footprint:"
+        "it": " 💡 Come ridurre la tua impronta:",
+        "en": " 💡 How to reduce your footprint:"
     },
     "tips_text": {
         "it": """

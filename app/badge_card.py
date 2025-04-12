@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 # Define the badge levels based on daily CO₂ impact
 BADGES = [
@@ -94,26 +95,34 @@ def render_badge_card(co2: float, lang: str):
     """
     badge = get_badge_data(co2)
 
-    st.markdown(f"""
-        <div style="
-            max-width: 700px;
-            margin: 1rem auto;
-            border-radius: 12px;
-            border: 2px solid {badge['color']};
-            background-color: {badge['bg_color']};
-            padding: 1.5rem 2rem;
-            color: #111;
-            text-align: center;">
-            
-            <h2 style='margin-bottom: 0.5rem;'>
-                {badge['icon']} <span style='color: {badge['color']};'>Badge:</span>
-                <strong style='font-size: 1.5rem;'>{badge['title'][lang]}</strong>
-            </h2>
+    html_content = f"""
+    <div style="
+        max-width: 700px;
+        margin: 2rem auto;
+        padding: 2rem;
+        border-radius: 16px;
+        border: 2px solid {badge['color']};
+        background: linear-gradient(135deg, {badge['bg_color']} 60%, #ffffff 100%);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        font-family: 'Segoe UI', sans-serif;
+        color: #111;
+        text-align: center;
+    ">
+        <div style="font-size: 2.8rem; margin-bottom: 0.5rem;">{badge['icon']}</div>
 
-            <p style='margin: 0.3rem 0;'>📊 
-                <strong style='color: #444;'>Punteggio ambientale:</strong> {badge['score']} / 10
-            </p>
-            
-            <p style='margin: 0.3rem 0;'>💬 {badge['desc'][lang]}</p>
-        </div>
-    """, unsafe_allow_html=True)
+        <h2 style="font-size: 1.8rem; margin-bottom: 0.3rem;">
+            <span style="color: {badge['color']}; font-weight: 700;">Badge:</span>
+            <span style="font-weight: 500;"> {badge['title'][lang]}</span>
+        </h2>
+
+        <p style="margin: 0.8rem 0; font-size: 1.1rem;">
+            📊 <strong style="color: #333;">Punteggio ambientale:</strong> {badge['score']} / 10
+        </p>
+
+        <p style="margin: 0.6rem 0; font-size: 1.05rem; color: #222;">
+            💬 {badge['desc'][lang]}
+        </p>
+    </div>
+    """
+
+    components.html(html_content, height=500)

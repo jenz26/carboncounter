@@ -1,4 +1,3 @@
-# co2_calc.py
 # Module to calculate CO₂ emissions based on user inputs and predefined estimates
 
 import json

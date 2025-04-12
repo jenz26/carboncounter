@@ -1,4 +1,3 @@
-# translations_label.py
 # Dictionary of activity labels and descriptions in Italian and English.
 
 labels = {
@@ -251,8 +250,45 @@ labels = {
             "label": "IoT device usage (1 day)",
             "descrizione": "Running an IoT device (e.g. smart home) for one full day."
         }
+    },
+}
+group_labels = {
+    "navigation_email": {
+        "it": "🌐 Navigazione & Email",
+        "en": "🌐 Browsing & Email"
+    },
+    "streaming": {
+        "it": "🎵 Streaming",
+        "en": "🎵 Streaming"
+    },
+    "messaging": {
+        "it": "💬 Messaggistica & Comunicazioni",
+        "en": "💬 Messaging & Communication"
+    },
+    "ai": {
+        "it": "🧠 Intelligenza Artificiale",
+        "en": "🧠 Artificial Intelligence"
+    },
+    "cloud": {
+        "it": "☁️ Cloud & Download",
+        "en": "☁️ Cloud & Download"
+    },
+    "gaming": {
+        "it": "🎮 Gaming & Entertainment",
+        "en": "🎮 Gaming & Entertainment"
+    },
+    "shopping": {
+        "it": "🛒 Shopping & IoT",
+        "en": "🛒 Shopping & IoT"
+    },
+    "basic": {
+        "it": "Attività",
+        "en": "Activities"
     }
 }
+
+def get_group_label(key, lang="it"):
+    return group_labels.get(key, {}).get(lang, key)
 
 
 def get_label_and_desc(key, lang="it"):
