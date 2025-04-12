@@ -63,7 +63,7 @@ if st.session_state.step == "input":
 
     with st.container():
         st.markdown('<div class="logo-container">', unsafe_allow_html=True)
-        st.image("app/assets/logo_noback_complete.png", width=200)
+        st.image("app/assets/logo_noback_day.png", width=200)
         st.markdown('</div>', unsafe_allow_html=True)
 
     mode = st.radio("Modalità" if lang == "it" else "Mode", ["Semplificata", "Avanzata"] if lang == "it" else ["Simple", "Advanced"], horizontal=True)
