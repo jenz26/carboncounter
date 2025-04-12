@@ -1,5 +1,10 @@
 # 🌿 CarbonCounter
 
+![Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-ff4b4b?logo=streamlit&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
+![Status](https://img.shields.io/badge/Status-Ready%20to%20Deploy-brightgreen)
+
 > 🇮🇹 **Italiano sotto ⬇️** | 🇬🇧 **English above**
 
 ---
